@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
 
-for i in range(5, 14):
-	print(i, end = ' ')
+a = range(5, 14)
+count = 1
+for i in a:
+	count *= i
+	print(count)
