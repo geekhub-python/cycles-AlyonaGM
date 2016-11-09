@@ -2,6 +2,5 @@
 
 for i in range (1000,10000):
     x = list(str(i))
-    if len(x):
-    	if "6" not in x and "5" not in x:
-          print(i, end = " ")
+    if "6" not in x and "5" not in x:
+    	print(i, end = " ")
